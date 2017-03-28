@@ -25,7 +25,7 @@ p {
   color: #36414C !important;
 }
 .text-muted {
-  color: #8D99A6 !important;
+  color: #048000 !important;
 }
 .text-extra-muted {
   color: #d1d8dd !important;
@@ -110,6 +110,9 @@ a.badge-hover:hover .badge,
 a.badge-hover:focus .badge,
 a.badge-hover:active .badge {
   background-color: #D8DFE5;
+}
+.msgprint {
+  margin: 15px 0px;
 }
 .msgprint pre {
   text-align: left;
@@ -496,7 +499,6 @@ fieldset[disabled] .form-control {
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 10px;
 }
 /* on small screens, show only icons on top */
 @media (max-width: 767px) {
