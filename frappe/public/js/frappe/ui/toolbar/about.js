@@ -9,9 +9,6 @@ frappe.ui.misc.about = function() {
 			 Website: <a href='https://revaluesoft.com' target='_blank'>https://revaluesoft.com</a></p>\
 	 	<p><i class='fa fa-github fa-fw'></i>\
 			Source: <a href='https://revaluesoft.com' target='_blank'>https://revaluesoft.com</a></p>\
-		//<hr>\
-	//	<h4>Installed Apps</h4>\
-	//	<div id='about-app-versions'>Loading versions...</div>\
 		<hr>\
 		<p class='text-muted'>&copy; 2016 Revalue Technologies Pvt. Ltd and contributors </p> \
 		</div>", frappe.app));
