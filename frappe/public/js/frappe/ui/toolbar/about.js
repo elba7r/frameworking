@@ -6,9 +6,9 @@ frappe.ui.misc.about = function() {
 		$(d.body).html(repl("<div>\
 		<p>"+__("Open Source Applications for the Web")+"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
-			 Website: <a href='https://revaluesoft.com' target='_blank'>https://revaluesoft.com</a></p>\
+			 Website: <a href='http://revaluesoft.com' target='_blank'>http://revaluesoft.com</a></p>\
 	 	<p><i class='fa fa-github fa-fw'></i>\
-			Source: <a href='https://revaluesoft.com' target='_blank'>https://revaluesoft.com</a></p>\
+			Source: <a href='http://revaluesoft.com' target='_blank'>http://revaluesoft.com</a></p>\
 		<hr>\
 		<p class='text-muted'>&copy; 2016 Revalue Technologies Pvt. Ltd and contributors </p> \
 		</div>", frappe.app));
