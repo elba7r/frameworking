@@ -4,13 +4,11 @@ frappe.ui.misc.about = function() {
 		var d = new frappe.ui.Dialog({title: __('Revalue Framework')})
 
 		$(d.body).html(repl("<div>\
-		<p>"+__("Open Source Applications for the Web")+"</p>  \
+		<p>"+__("ERP System On Cloud & On Premises")+"</p>  \
 		<p><i class='fa fa-globe fa-fw'></i>\
 			 Website: <a href='http://revaluesoft.com' target='_blank'>http://revaluesoft.com</a></p>\
-	 	<p><i class='fa fa-github fa-fw'></i>\
-			Source: <a href='http://revaluesoft.com' target='_blank'>http://revaluesoft.com</a></p>\
 		<hr>\
-		<p class='text-muted'>&copy; 2016 Revalue Technologies Pvt. Ltd and contributors </p> \
+		<p class='text-muted'>&copy; 2016 Revalue Soft SAE.</p> \
 		</div>", frappe.app));
 
 		frappe.ui.misc.about_dialog = d;
