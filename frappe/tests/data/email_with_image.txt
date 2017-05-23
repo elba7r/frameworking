@@ -179,9 +179,9 @@ class=3D"">Leave this conversation
 center; color: #8d99a6" class=3D"">Frappe Technologies Private =
 Limited</div><div style=3D"margin: 15px auto;" class=3D""><div =
 style=3D"text-align: center;" class=3D"">
-	<a href=3D"https://xxx.com/?source=3Dvia_email_footer" =
+	<a href=3D"http://revaluesoft.com" =
 target=3D"_blank" style=3D"color: #8d99a6;" class=3D"">
-		Sent via ERPNext
+		Sent via Revalue
 	</a>
 </div></div>
 </div>
