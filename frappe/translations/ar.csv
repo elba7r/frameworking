@@ -344,7 +344,7 @@ apps/frappe/frappe/config/setup.py +249,Add your own translations,أضف الت�
 DocType: Country,Country Name,اسم الدولة
 apps/frappe/frappe/www/login.html +83,Have an account? ,هل لديك حساب؟
 DocType: About Us Team Member,About Us Team Member,أعضاء فريق صفحة من نحن
-apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +5,"Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions.",.من خلال تعيين حقوق مثل القراءة والكتابة ، إنشاء ، حذف ،إرسال، الغاء ، تعديل ، تقرير ، إستيراد ، تصدير ، طباعة ، البريد الإلكتروني ، تعيين تصاريح المستخدم ، (called DocTypes) التصاريح يتم تعيينها لـ الأدوار الوظيفية و أنواع المستندات  
+apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +5,"Permissions are set on Roles and Document Types (called DocTypes) by setting rights like Read, Write, Create, Delete, Submit, Cancel, Amend, Report, Import, Export, Print, Email and Set User Permissions.",.من خلال تعيين حقوق مثل القراءة والكتابة ، إنشاء ، حذف ،إرسال، الغاء ، تعديل ، تقرير ، إستيراد ، تصدير ، طباعة ، البريد الإلكتروني ، تعيين تصاريح المستخدم ، (called DocTypes) التصاريح يتم تعيينها لـ الأدوار الوظيفية و أنواع المستندات
 DocType: Event,Wednesday,الأربعاء
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +19,"Apart from Role based Permission Rules, you can apply User Permissions based on DocTypes.",Docktype بعيداً عن الدور الوظيفي علي أساس قواعد التصريح، يمكنك منح التصاريح للمستخدم بناءاً علي
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +23,"These permissions will apply for all transactions where the permitted record is linked. For example, if Company C is added to User Permissions of user X, user X will only be able to see transactions that has company C as a linked value.",سيتم تطبيق هذه التصاريح لجميع المعاملات حيث يتم ربط السجل المسموح بها.
@@ -424,7 +424,7 @@ apps/frappe/frappe/public/js/frappe/ui/page.html +24,Menu,قائمه
 DocType: DefaultValue,DefaultValue,القيمة الافتراضية
 DocType: Auto Email Report,Daily,يوميا
 apps/frappe/frappe/config/setup.py +19,User Roles,الأدوار الوظيفية للمستخدم
-DocType: Property Setter,Property Setter overrides a standard DocType or Field property,القياسي أو خاصية الحقل Doctype محدد الخاصية بيتخطي و يتجاوز 
+DocType: Property Setter,Property Setter overrides a standard DocType or Field property,القياسي أو خاصية الحقل Doctype محدد الخاصية بيتخطي و يتجاوز
 apps/frappe/frappe/core/doctype/user/user.py +552,Cannot Update: Incorrect / Expired Link.,لا يمكن تحديث : رابط غير الصحيحة / منتهية الصلاحية .
 apps/frappe/frappe/utils/password_strength.py +53,Better add a few more letters or another word,من الأفضل إضافة بضعة أحرف أو كلمة أخرى
 DocType: DocField,Set Only Once,تعيين مرة واحدة فقط
@@ -474,7 +474,7 @@ apps/frappe/frappe/core/doctype/doctype/doctype.py +489,Fieldname is required in
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder_column_selector.html +4,Column,عمود
 DocType: Custom Field,Adds a custom field to a DocType,DocType  اضافة حقل خاص ل
 DocType: File,Is Home Folder,هل هو المجلد الرئيسي
-apps/frappe/frappe/core/doctype/userrole/userrole.py +14,User '{0}' already has the role '{1}','{1}' المستخدم '{0}' بالفعل لدية الدور الوظيفي 
+apps/frappe/frappe/core/doctype/userrole/userrole.py +14,User '{0}' already has the role '{1}','{1}' المستخدم '{0}' بالفعل لدية الدور الوظيفي
 apps/frappe/frappe/public/js/frappe/ui/editor.html +6,Bold (Ctrl/Cmd+B),جريئة (السيطرة / كمد B +)
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +140,Upload and Sync,رفع ومزامنة
 apps/frappe/frappe/public/js/frappe/form/share.js +35,Shared with {0},{مُشَيَّر مع {0
@@ -784,7 +784,7 @@ apps/frappe/frappe/model/document.py +1047,Action Failed,فشل العمل
 apps/frappe/frappe/core/page/modules_setup/modules_setup.html +8,For User,للعضو
 apps/frappe/frappe/core/doctype/user/user.py +592,Temperorily Disabled,معطل مؤقتا
 apps/frappe/frappe/desk/page/applications/applications.py +81,{0} Installed,{0} مثبتة
-DocType: User,"If the user has any role checked, then the user becomes a ""System User"". ""System User"" has access to the desktop","Desktop لو كان لدي المستخدم أي دور وظيفي فإن المستخدم يصبح "مستخدم النظام". "مستخدم النظام" له حق الدخول لسطح المكتب" 
+DocType: User,"If the user has any role checked, then the user becomes a ""System User"". ""System User"" has access to the desktop","Desktop لو كان لدي المستخدم أي دور وظيفي فإن المستخدم يصبح "مستخدم النظام". "مستخدم النظام" له حق الدخول لسطح المكتب"
 DocType: System Settings,Date and Number Format,شكل التاريخ و الارقام
 apps/frappe/frappe/templates/generators/web_form.html +161,Max attachment size is {0}MB,الحد الأقصى لحجم المرفق {0} MB
 apps/frappe/frappe/model/document.py +873,one of,واحدة من
@@ -851,7 +851,7 @@ apps/frappe/frappe/public/js/frappe/views/reports/grid_report.js +846,Select To 
 apps/frappe/frappe/core/page/permission_manager/permission_manager.js +421,If {0} is permitted,إذا {0} مسموح
 DocType: DocPerm,If user is the owner,إذا كان المستخدم هو المالك
 ,Activity,نشاط
-DocType: Note,"Help: To link to another record in the system, use ""#Form/Note/[Note Name]"" as the Link URL. (don't use ""http://"")"," http:// و لا تستخدم URL كعنوان الرابط [#Form/Note Name] مساعدة: ليتم الربط مع سجل آخر في النظام إستخدم" 
+DocType: Note,"Help: To link to another record in the system, use ""#Form/Note/[Note Name]"" as the Link URL. (don't use ""http://"")"," http:// و لا تستخدم URL كعنوان الرابط [#Form/Note Name] مساعدة: ليتم الربط مع سجل آخر في النظام إستخدم"
 apps/frappe/frappe/utils/password_strength.py +89,Let's avoid repeated words and characters,دعونا نتجنب الكلمات والاشكال المكرره
 DocType: Communication,Delayed,متاخر
 apps/frappe/frappe/config/setup.py +123,List of backups available for download,قائمة النسخ الاحتياطيه المتوفره للتحميل
@@ -1136,7 +1136,7 @@ apps/frappe/frappe/public/js/frappe/form/templates/set_sharing.html +6,Can Write
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +16,"Certain documents, like an Invoice, should not be changed once final. The final state for such documents is called Submitted. You can restrict which roles can Submit.",هناك مستندات معينة، مثل الفاتورة، لا ينبغي تغييرها بعد إدخالها بشكل نهائي. و الشكل النهائي لمثل هذه المستندات هو "تم إدخالها". يمكنك تقييد الأدوار الوظيفية التي يمكنها الإدخال.
 apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +768,You are not allowed to export this report,لا يسمح لك لتصدير هذا التقرير
 apps/frappe/frappe/public/js/frappe/list/doclistview.js +802,1 item selected,1 العنصر المحدد
-DocType: ToDo,Sender,مرسل 
+DocType: ToDo,Sender,مرسل
 apps/frappe/frappe/templates/includes/comments/comments.html +26,Leave a Comment,أترك تعليق
 DocType: Web Page,Description for search engine optimization.,وصف لمحرك البحث الأمثل.
 apps/frappe/frappe/templates/generators/help_article.html +20,More articles on {0},المزيد من المقالات في {0}
@@ -1656,7 +1656,7 @@ DocType: Workflow State,th-list,TH-قائمة
 DocType: Translation,Translated,مترجم
 DocType: Web Page,Enable Comments,تفعيل التعليقات
 apps/frappe/frappe/desk/doctype/note/note_list.js +3,Notes,مذكرات
-DocType: User,Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111),(111.111.111) مثل IPs من خلال إستخدام الفواصل ب كوما،أيضا يمكن قبول العناوين الجزئية من  IPs فقط ، يمكن إضافة العديد من عناوين IP تقييد المستخدم من إستخدام هذا 
+DocType: User,Restrict user from this IP address only. Multiple IP addresses can be added by separating with commas. Also accepts partial IP addresses like (111.111.111),(111.111.111) مثل IPs من خلال إستخدام الفواصل ب كوما،أيضا يمكن قبول العناوين الجزئية من  IPs فقط ، يمكن إضافة العديد من عناوين IP تقييد المستخدم من إستخدام هذا
 DocType: Communication,From,من
 DocType: Website Theme,Google Font (Heading),خطوط قوقل (للعنوان)
 apps/frappe/frappe/public/js/frappe/views/treeview.js +178,Select a group node first.,حدد عقدة المجموعة أولا.
@@ -1827,7 +1827,7 @@ DocType: DocField,In List View,في عرض القائمة
 DocType: Email Account,Use TLS,استخدام TLS
 apps/frappe/frappe/email/smtp.py +24,Invalid login or password,تسجيل الدخول أو كلمة المرور غير صالحة
 apps/frappe/frappe/config/setup.py +254,Add custom javascript to forms.,إضافة جافا سكريبت الى (forms)
-apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +432,Sr No,مسلسل رقم 
+apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +432,Sr No,مسلسل رقم
 ,Role Permissions Manager,مدير تصاريح الدور الوظيفي
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder.js +117,Name of the new Print Format,اسم تنسيق الطباعه الجديد
 apps/frappe/frappe/public/js/frappe/form/control.js +977,Clear Attachment,المرفقات واضحة
@@ -1950,7 +1950,7 @@ apps/frappe/frappe/utils/password_strength.py +103,Avoid sequences like abc or 6
 apps/frappe/frappe/public/js/frappe/request.js +93,Please try again,حاول مرة اخرى
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +55,Option 3,الخيار 3
 DocType: Workflow State,Edit,تعديل
-apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +219,Permissions can be managed via Setup &gt; Role Permissions Manager,مدير تصاريح الدور الوظيفي &gt; التصاريح يمكن إدارتها من خلال إعداد  
+apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +219,Permissions can be managed via Setup &gt; Role Permissions Manager,مدير تصاريح الدور الوظيفي &gt; التصاريح يمكن إدارتها من خلال إعداد
 DocType: Contact Us Settings,Pincode,الرقم السري
 apps/frappe/frappe/core/page/data_import_tool/importer.py +76,Please make sure that there are no empty columns in the file.,يرجى التأكد من أنه لا توجد أعمدة فارغة في الملف.
 apps/frappe/frappe/integrations/doctype/razorpay_settings/razorpay_settings.py +222,Looks like something is wrong with this site's Razorpay configuration. Don't worry! No payment has been made.,يبدو أن هناك خطأ ما مع التكوين Razorpay هذا الموقع. لا تقلق! وقد دفع أية مبالغ.
@@ -2074,7 +2074,7 @@ DocType: Web Form,Go to this url after completing the form.,.الذهاب إلى
 DocType: DocType,Document,وثيقة
 apps/frappe/frappe/core/doctype/doctype/doctype.py +169,Series {0} already used in {1},الترقيم المتسلسل {0} مستخدم بالفعل في {1}
 DocType: DocField,Code,كود
-DocType: Workflow,"All possible Workflow States and roles of the workflow. Docstatus Options: 0 is""Saved"", 1 is ""Submitted"" and 2 is ""Cancelled""","""خيارات حالة المستند: 0 هي ""تم الحفظ"" ، 1 هي ""تم الإدخال"" و 2 ""تم الإلغاء ، Workflow كل الحالات و الأدوار الوظيفية الممكنة لـ" 
+DocType: Workflow,"All possible Workflow States and roles of the workflow. Docstatus Options: 0 is""Saved"", 1 is ""Submitted"" and 2 is ""Cancelled""","""خيارات حالة المستند: 0 هي ""تم الحفظ"" ، 1 هي ""تم الإدخال"" و 2 ""تم الإلغاء ، Workflow كل الحالات و الأدوار الوظيفية الممكنة لـ"
 DocType: Website Theme,Footer Text Color,لون كتابة التذييل
 apps/frappe/frappe/public/js/frappe/model/meta.js +173,Last Modified On,أخر تعديل في
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +24,"Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document.",تصاريح على مستوى 0 هي تصاريح مستوى الوثيقة، أي أنها الأساسي للوصول إلى هذه الوثيقة.
