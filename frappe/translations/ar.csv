@@ -160,7 +160,7 @@ DocType: Report,JavaScript Format: frappe.query_reports['REPORTNAME'] = {},جا�
 DocType: Version,Doclist JSON,Doclist JSON
 DocType: Bulk Update,Bulk Update,تحديث بالجمله
 DocType: Workflow State,chevron-up,شيفرون المتابعة
-apps/frappe/frappe/public/js/frappe/ui/toolbar/navbar.html +57,Documentation,توثيق
+apps/frappe/frappe/public/js/frappe/ui/toolbar/navbar.html +57,Documentation,دليل المستخدم
 apps/frappe/frappe/utils/oauth.py +288,Not Allowed,غير مسموح
 DocType: DocShare,Internal record of document shares,السجل الداخلي لتشييرات المستندات
 DocType: Workflow State,Comment,تعليق
