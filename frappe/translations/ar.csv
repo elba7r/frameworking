@@ -1620,7 +1620,7 @@ apps/frappe/frappe/utils/password_strength.py +80,Make use of longer keyboard pa
 apps/frappe/frappe/utils/nestedset.py +77,Nested set error. Please contact the Administrator.,خطأ مجموعة متداخلة . يرجى الاتصال مدير البرنامج.
 DocType: Workflow State,envelope,مغلف
 apps/frappe/frappe/custom/doctype/custom_field/custom_field.js +55,Option 2,الخيار 2
-apps/frappe/frappe/core/doctype/docshare/docshare.py +49,{0} shared this document with {1},{ـ {0} تم تشيير هذه المستند مع {1
+apps/frappe/frappe/core/doctype/docshare/docshare.py +49,{0} shared this document with {1},{0} shared this document with {1}
 DocType: Website Settings,Brand Image,صورة العلامة التجارية
 DocType: Print Settings,A4,أ4
 apps/frappe/frappe/config/website.py +54,"Setup of top navigation bar, footer and logo.",الإعداد من أعلى الملاحة تذييل وبار والشعار.
