@@ -750,7 +750,7 @@ apps/frappe/frappe/public/js/frappe/views/reports/query_report.js +49,Collapse A
 apps/frappe/frappe/desk/page/applications/applications.js +160,Install {0}?,تثبيت {0}؟
 apps/frappe/frappe/www/login.html +25,Forgot Password?,هل نسيت كلمة المرور؟
 DocType: System Settings,yyyy-mm-dd,yyyy-mm-dd
-apps/frappe/frappe/public/js/frappe/model/model.js +17,ID,هوية شخصية
+apps/frappe/frappe/public/js/frappe/model/model.js +17,ID,مسلسل التسجيل
 apps/frappe/frappe/integrations/doctype/razorpay_settings/razorpay_settings.py +110,Server Error,خطأ في الخادم
 apps/frappe/frappe/email/doctype/email_account/email_account.py +46,Login Id is required,مطلوب معرف تسجيل الدخول
 DocType: Website Slideshow,Website Slideshow,شرائح صور لموقع الكتروني
