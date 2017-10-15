@@ -130,7 +130,7 @@ apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.js +561,The first user wi
 ,App Installer,مثبت التطبيق
 apps/frappe/frappe/integrations/doctype/dropbox_settings/dropbox_settings.py +147,Dropbox access allowed. <p>Please close this window.</p>,"يسمح الوصول دروببوإكس. <p style=""""> الرجاء إغلاق هذه النافذة. </p>"
 DocType: Workflow State,circle-arrow-up,دائرة السهم إلى أعلى
-apps/frappe/frappe/public/js/frappe/upload.js +156,Uploading...,تحميل ...
+apps/frappe/frappe/public/js/frappe/upload.js +156,Uploading...,رفع ...
 DocType: Workflow State,italic,italic
 apps/frappe/frappe/core/page/modules_setup/modules_setup.html +7,For Everyone,للجميع
 apps/frappe/frappe/core/doctype/doctype/doctype.py +579,{0}: Cannot set Import without Create,{0} : لا يمكن تحديد استيراد دون إنشاء
@@ -1325,7 +1325,7 @@ apps/frappe/frappe/core/doctype/error_snapshot/error_snapshot.js +9,Show Relapse
 DocType: Report,Report Builder,منشئ التقارير
 DocType: Async Task,Task Name,اسم المهمة
 DocType: Communication,Workflow,سير العمل
-DocType: Workflow State,Upload,تحميل
+DocType: Workflow State,Upload,رفع
 DocType: System Settings,Date Format,تنسيق التاريخ
 apps/frappe/frappe/website/doctype/blog_post/blog_post_list.js +7,Not Published,لم تنشر
 apps/frappe/frappe/config/setup.py +193,"Actions for workflow (e.g. Approve, Cancel).","اجراءات سير العمل مثال : الموافقة,الرفض"
@@ -1739,7 +1739,7 @@ apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +67,"Insert After
 DocType: Workflow State,signal,إشارة
 DocType: DocType,Show Print First,إظهار الطباعة أوﻻ
 apps/frappe/frappe/desk/page/chat/chat_main.html +12,Ctrl + Enter to post,Ctrl + Enter للإضافة
-apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},{0} إنشاء
+apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},إنشاء{0}
 apps/frappe/frappe/core/page/usage_info/usage_info.html +86,Size (MB),الحجم (MB)
 DocType: Help Article,Author,مؤلف
 apps/frappe/frappe/core/doctype/communication/communication.js +24,Reopen,إعادة فتح
@@ -2245,7 +2245,7 @@ apps/frappe/frappe/print/doctype/print_format/print_format.js +31,Make Default,�
 apps/frappe/frappe/integrations/doctype/social_login_keys/social_login_keys.py +26,Check Frappe Server URL,Check Frappe Server URL
 apps/frappe/frappe/core/doctype/doctype/doctype.py +401,Fieldtype {0} for {1} cannot be indexed,نوع الحقل {0} لـ {1 لا يمكن ترقيمه للفهرسه}
 DocType: Communication,Email Account,حساب البريد الإلكتروني
-DocType: Workflow State,Download,تحميل
+DocType: Workflow State,Download,تنزيل
 DocType: Blog Post,Blog Intro,بدايه المدونه
 DocType: Async Task,Result,نتيجة
 apps/frappe/frappe/email/doctype/email_group/email_group.py +87,{0} is not a valid email id,{0} بريد إلكتروني غير صحيح
