@@ -1739,7 +1739,7 @@ apps/frappe/frappe/custom/doctype/custom_field/custom_field.py +67,"Insert After
 DocType: Workflow State,signal,إشارة
 DocType: DocType,Show Print First,إظهار الطباعة أوﻻ
 apps/frappe/frappe/desk/page/chat/chat_main.html +12,Ctrl + Enter to post,Ctrl + Enter للإضافة
-apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},إنشاء{0}
+apps/frappe/frappe/public/js/frappe/form/link_selector.js +105,Make a new {0},إنشاء {0}
 apps/frappe/frappe/core/page/usage_info/usage_info.html +86,Size (MB),الحجم (MB)
 DocType: Help Article,Author,مؤلف
 apps/frappe/frappe/core/doctype/communication/communication.js +24,Reopen,إعادة فتح
