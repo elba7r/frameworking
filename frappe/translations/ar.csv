@@ -2459,7 +2459,7 @@ DocType: Website Settings,Brand HTML,العلامة التجارية HTML
 DocType: Desktop Icon,_doctype,_doctype
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +33,Setup &gt; User Permissions Manager,الإعداد&gt; مدير تصاريح المستخدم
 apps/frappe/frappe/templates/includes/login/login.js +21,Both login and password required,كل من تسجيل الدخول وكلمة المرور مطلوبان
-apps/frappe/frappe/model/document.py +525,Please refresh to get the latest document.,يرجى تحديث للحصول على أحدث وثيقة.
+apps/frappe/frappe/model/document.py +525,Please refresh to get the latest document,يرجى تحديث للحصول على أحدث وثيقة
 DocType: User,Security Settings,إعدادات الأمان
 apps/frappe/frappe/public/js/frappe/views/reports/reportview.js +758,Add Column,إضافة عمود
 ,Desktop,سطح المكتب
